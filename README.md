@@ -1,48 +1,77 @@
-# 🧠 Student Study Management Website
+🧠 Student Study Management Website
+--------------------------------
 
-A web-based platform designed to help **Cau Giay High School** students organize their study life — tracking assignments, deadlines, and personal progress — all in one place.
+A web-based platform designed to help Cau Giay High School students organize their study life — tracking assignments, deadlines, and personal progress — all in one place.
 
----
 
-## 🚀 Features
-- 📚 **Assignment Tracker:** View, add, and manage assignments and deadlines.
-- 👥 **Class Collaboration:** See what classmates are working on and share study notes.
-- 📅 **Personal Dashboard:** Track progress visually using completion charts.
-- 🔔 **Deadline Reminders:** Email and in-app notifications.
-- 🔐 **Secure Login:** User authentication with session management.
+🚀 FEATURES
+-----------
+• Assignment Tracker – View, add, and manage assignments and deadlines  
+• Class Collaboration – See what classmates are working on and share notes  
+• Personal Dashboard – Track progress visually using charts and status bars  
+• Deadline Reminders – Email and in-app notifications  
+• Secure Login – Session-based authentication system
 
----
 
-## 🛠️ Tech Stack
-| Category | Technology |
-|-----------|-------------|
-| Backend | Python (Flask) |
-| Frontend | HTML, CSS, JavaScript, Bootstrap |
-| Database | SQLite (local) / PostgreSQL (deployment) |
-| Hosting | Render / Railway (planned) |
+🛠️ TECH STACK
+--------------
+Backend: Python (Flask)
+Frontend: HTML, CSS, JavaScript, Bootstrap
+Database: SQLite (local) / PostgreSQL (deployment)
+Hosting: Render / Railway (planned)
 
----
 
-## 🧩 Project Architecture
-Flask App → Routes → Models (SQLite)  
-↓  
-Templates (Jinja2)  
-↓  
-Static Assets (CSS/JS)  
+🧩 PROJECT ARCHITECTURE
+-----------------------
+Flask App  →  Routes  →  Models (SQLite)
+     ↓
+  Templates (Jinja2)
+     ↓
+Static Assets (CSS / JS)
 
----
 
-## 🧠 How It Works
-1. **Students Register/Login**
-2. **Add Assignments:** Title, subject, deadline, and notes
-3. **Dashboard View:** Displays all assignments with status and progress
-4. **Collaborative Mode (coming soon):** Share and sync with classmates
+🧠 HOW IT WORKS
+---------------
+1. Students register and log in  
+2. Add assignments (title, subject, deadline, and notes)  
+3. Dashboard shows all assignments with progress status  
+4. Collaborative mode (coming soon) will sync data between classmates
 
----
 
-## 🧪 Tests
-Basic unit tests for route handling and model operations are available under `/tests`.
+🧪 TESTING
+----------
+Basic unit tests for route handling and model operations are available in the /tests directory.
 
-Run:
-```bash
-pytest
+Run tests:
+> pytest
+
+
+📸 SCREENSHOTS
+--------------
+(Mockups for presentation — implementation in progress)
+
+Login Page: docs/screenshots/login_mockup.png  
+Dashboard: docs/screenshots/dashboard_mockup.png
+
+
+📅 DEVELOPMENT TIMELINE
+-----------------------
+Phase                    | Status
+-------------------------|---------
+Planning & Wireframing   | Completed
+Database Design          | Completed
+Frontend Prototype       | Completed
+Backend Integration      | In Progress
+Deployment               | Upcoming
+
+
+👤 AUTHOR
+---------
+[Your Name]  
+Developer | Cau Giay High School  
+Email: your.email@example.com
+
+
+📜 LICENSE
+----------
+MIT License © 2024 [Your Name]
