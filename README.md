@@ -1,63 +1,42 @@
 🧠 Student Study Management Website
 --------------------------------
 
-A web-based platform designed to help Cau Giay High School students organize their study life — tracking assignments, deadlines, and personal progress — all in one place.  
+A web-based platform designed to help High School students organize their study life — tracking assignments, deadlines, and personal progress — all in one place.  
 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-🚀 FEATURES
------------
-• Assignment Tracker – View, add, and manage assignments and deadlines  
-• Class Collaboration – See what classmates are working on and share notes  
-• Personal Dashboard – Track progress visually using charts and status bars   
-• Deadline Reminders – Email and in-app notifications    
-• Secure Login – Session-based authentication system  
+## Getting Started
 
+First, run the development server:
 
-🛠️ TECH STACK
---------------
-Backend: Python (Flask)  
-Frontend: HTML, CSS, JavaScript, Bootstrap  
-Database: SQLite (local) / PostgreSQL (deployment)  
-Hosting: Render / Railway (planned)  
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-🧩 PROJECT ARCHITECTURE
------------------------
-Flask App  →  Routes  →  Models (SQLite)  
-Flask App → Templates (Jinja2) →  Static Assets (CSS / JS)  
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-🧠 HOW IT WORKS
----------------
-1. Students register and log in  
-2. Add assignments (title, subject, deadline, and notes)  
-3. Dashboard shows all assignments with progress status  
-4. Collaborative mode (coming soon) will sync data between classmates
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Learn More
 
-🧪 TESTING
-----------
-Basic unit tests for route handling and model operations are available in the /tests directory.  
+To learn more about Next.js, take a look at the following resources:
 
-Run tests:  
-> pytest
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-📸 SCREENSHOTS
---------------
-(Mockups for presentation — implementation in progress)
+## Deploy on Vercel
 
-Login Page: <img width="712" height="370" alt="1" src="https://github.com/user-attachments/assets/806c0ff7-30f6-41ea-87fe-bf949bb0a50a" />  
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Dashboard: <img width="759" height="361" alt="2" src="https://github.com/user-attachments/assets/ecf2a5f8-044d-4556-a78d-559a590187ef" />  
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-
-
-📅 DEVELOPMENT TIMELINE
------------------------
-Phase                    | Status
--------------------------|---------
-Planning & Wireframing   | Completed
-Database Design          | Completed
-Frontend Prototype       | Completed
-Backend Integration      | In Progress
-Deployment               | Upcoming
