@@ -5,38 +5,41 @@ A web-based platform designed to help High School students organize their study 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+Student Study Management Website
+--------------------------------
 
-First, run the development server:
+A web-based platform designed to help Cau Giay High School students organize their study life — tracking assignments, deadlines, and personal progress — all in one place.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🚀 FEATURES
+-----------
+• Assignment Tracker – View, add, and manage assignments and deadlines  
+• Class Collaboration – See what classmates are working on and share notes  
+• Personal Dashboard – Track progress visually using charts and status bars  
+• Deadline Reminders – Email and in-app notifications  
+• Secure Login – Session-based authentication system
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🛠️ TECH STACK
+--------------
+Backend: Python (Flask)
+Frontend: HTML, CSS, JavaScript, Bootstrap
+Database: SQLite (local) / PostgreSQL (deployment)
+Hosting: Render / Railway (planned)
 
-## Learn More
+🧠 HOW IT WORKS
+---------------
+1. Students register and log in  
+2. Add assignments (title, subject, deadline, and notes)  
+3. Dashboard shows all assignments with progress status  
+4. Collaborative mode (coming soon) will sync data between classmates
 
-To learn more about Next.js, take a look at the following resources:
+🧪 TESTING
+----------
+Basic unit tests for route handling and model operations are available in the /tests directory.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Run tests:
+> pytest
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
